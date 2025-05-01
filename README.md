@@ -1,3 +1,26 @@
-# house-price-prediction-kaggle
+# House Price Prediction (Kaggle)
 
-This repo is for the Kaggle Competition on Housing Price Prediction using Regression.
+Predict sale prices of residential homes in Ames, Iowa using classical ML (regression & ensembles).
+
+## 📂 Project Structure
+
+- **data/**: raw and processed datasets
+- **notebooks/**: exploratory & iterative analysis
+- **src/**: reusable code for data, features, modeling, and visualization
+- **tests/**: unit tests ensuring data‐transform correctness
+- **results/**: figures and final submission files
+
+## 🚀 Installation
+
+```bash
+# Clone repo
+git clone https://github.com/berkin1907/house-price-prediction-kaggle.git
+cd house-price-prediction-kaggle
+
+# Using pip
+git checkout main
+pip install -r requirements.txt
+
+# Or with conda (if you prefer)
+conda env create -f environment.yml
+conda activate house-price
