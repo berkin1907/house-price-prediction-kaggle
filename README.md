@@ -7,7 +7,6 @@ Predict sale prices of residential homes in Ames, Iowa using classical ML (regre
 - **data/**: raw and processed datasets
 - **notebooks/**: exploratory & iterative analysis
 - **src/**: reusable code for data, features, modeling, and visualization
-- **tests/**: unit tests ensuring data‐transform correctness
 - **results/**: figures and final submission files
 
 ## 🚀 Installation

@@ -15,6 +15,7 @@ venv/
 
 # Results
 results/submissions/
+catboost_info
 
 # IDEs
 .vscode/
