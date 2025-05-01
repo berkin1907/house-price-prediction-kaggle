@@ -1,0 +1,8 @@
+model,mean_rmse,std_rmse,best_params
+Ridge,0.11922320002456335,0.008960591860040727,{'alpha': np.float64(148.73521072935117)}
+Lasso,0.11491869829417004,0.009172115739094173,{'alpha': np.float64(0.002395026619987486)}
+RandomForest,0.13680759343862917,0.00650222063122168,"{'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_depth': None}"
+SVR,0.11937788222267483,0.009744150492698967,"{'kernel': 'linear', 'epsilon': 0.01, 'C': 10}"
+XGBoost,0.12188668808313215,0.007124567141585409,"{'n_estimators': 300, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.5}"
+LightGBM,0.12773622079924293,0.005484950194733994,"{'num_leaves': 31, 'n_estimators': 100, 'learning_rate': 0.1}"
+CatBoost,0.11755736582632662,0.006111983898446387,"{'learning_rate': 0.1, 'iterations': 500, 'depth': 6}"
